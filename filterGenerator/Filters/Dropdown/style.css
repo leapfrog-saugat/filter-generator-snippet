@@ -1,0 +1,12 @@
+/* https://github.com/JedWatson/react-select/issues/3775 */
+/* This is a workaround for making options height for empty text option */
+
+.input-field-select__option {
+  min-height: 20px;
+}
+.input-field-select__control {
+  min-height: 20px !important;
+}
+.input-field-select__indicator {
+  padding: 0px 8px !important;
+}
